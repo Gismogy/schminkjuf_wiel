@@ -1,8 +1,8 @@
 <?php
 
-$facebook = $facebookNames;
-$instagram = $instagramNames;
-$allnames = array_merge($instagramNames, $facebookNames);
+$facebook = $_SESSION["fNames"];
+$instagram = $_SESSION["iNames"];
+$allnames = $_SESSION["aNames"];
 
 ?>
 
@@ -28,10 +28,9 @@ $allnames = array_merge($instagramNames, $facebookNames);
     </script>
 </head>
 <body class="bg-gray-100">
-
 <div class="container mx-auto p-8">
     <div class="flex justify-between mb-6">
-        <h1 class="text-2xl font-bold">SchimnkJuf Facebook & Instgram | ACTIE 6-2-2025 | <a target="_blank" class="bg-yellow-500 ml-5 text-black px-4 py-2 rounded mt-4" href="https://wheelofnames.com/2cy-ymc">Al ingevulde wiel</a>    <a target="_blank" class="bg-yellow-500 ml-5 text-black px-4 py-2 rounded mt-4" href="https://wheelofnames.com/">Eigen wiel maken</a></h1>
+        <h1 class="text-2xl font-bold">SchimnkJuf Facebook & Instagram | ACTIE 6-2-2025 | <a target="_blank" class="bg-yellow-500 ml-5 text-black px-4 py-2 rounded mt-4" href="https://wheelofnames.com/2cy-ymc">Al ingevulde wiel</a>    <a target="_blank" class="bg-yellow-500 ml-5 text-black px-4 py-2 rounded mt-4" href="https://wheelofnames.com/">Eigen wiel maken</a></h1>
     </div>
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
      <div class="flex space-x-6 mb-6">

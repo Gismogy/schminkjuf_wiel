@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 // Hardcoded username and password
 $validUsername = 'brenda';
